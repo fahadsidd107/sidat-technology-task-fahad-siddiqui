@@ -9,7 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.2.1",
+    "@fortawesome/free-regular-svg-icons": "^6.2.1",
+    "@fortawesome/free-solid-svg-icons": "^6.2.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "@next/font": "13.1.5",
+    "@nextui-org/react": "^1.0.0-beta.12",
     "@types/node": "18.11.18",
     "@types/react": "18.0.27",
     "@types/react-dom": "18.0.10",
@@ -18,6 +23,10 @@
     "next": "13.1.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-horizontal-scroll-menu": "^0.0.3",
+    "react-horizontal-scrolling": "^0.1.13",
+    "react-scroll-horizontal": "^1.6.6",
+    "typeface-poppins": "^1.1.13",
     "typescript": "4.9.4"
   }
 }

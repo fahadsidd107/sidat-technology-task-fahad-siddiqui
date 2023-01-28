@@ -1,0 +1,78 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 1.5rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+    width: 70%;
+}
+
+.logo {
+    color: #CEA234;
+    font-size: large;
+    font-weight: 600;
+}
+
+.icon{
+    font-size: 1.5rem;
+}
+.menuButton {
+    color: #CEA234;
+}
+
+.mainButton {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    background: #CEA234;
+    border-radius: 30px;
+}
+
+.buttonClicked {
+    color: #CEA234;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0.3rem;
+    background: transparent;
+    border-radius: 30px;
+    border: 1px solid #CEA234;
+    ;
+}
+
+.menu{
+    background:rgb(0, 0, 0);
+    color: white;
+ 
+}
+
+.item{
+    color: white;
+}
+
+.menuButtonDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.appear{
+    color: #CEA234;
+}
+.notAppear{
+display: none;
+    
+}
+
+.buttons{
+    display: flex;
+    width: 20%;
+    justify-content:space-between;
+    align-items: center;
+}

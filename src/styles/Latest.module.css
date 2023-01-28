@@ -1,0 +1,32 @@
+.book{
+    background: #3b3b3b;
+    display: flex;
+    flex-direction: row;
+    padding:3rem
+   
+}
+
+.union{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 20%;
+}
+.scroll{
+    width: 100%;
+}
+.cardContainer{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    width: 100%;
+    margin-bottom: 3rem;
+}
+.item{
+    min-width: 250px;
+    height: 310px;
+    line-height: 40px;
+    flex-basis: auto;
+    margin: 3rem;
+}

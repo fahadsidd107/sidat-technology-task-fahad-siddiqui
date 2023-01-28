@@ -1,0 +1,55 @@
+.footer{
+    background-image: url(../assets/Vector.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+    }
+    
+    .bannerContent {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        width: 50%;
+        padding-top: 3rem;
+
+    }
+    
+    .bannerh1 {
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 75px;
+    
+        /* or 125% */
+        text-align: center;
+        text-transform: uppercase;
+    
+        color: #CEA234;
+        margin-bottom: 2rem;
+    }
+
+.footMenu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    gap: 4rem;
+    margin-bottom: 2rem;
+}
+
+   .end{
+border-top: 1px solid white;
+width: 100%;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+height: 2rem;
+margin-bottom: 10rem;
+padding: 1rem;
+
+    }
